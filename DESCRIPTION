@@ -1,0 +1,26 @@
+Package: hfhub.fr
+Type: Translation-module
+Title: Interface au Hub Hugging-Face
+Version: 0.1.1.9000
+Date: 2024-05-26
+Authors@R: c(
+    person(given = "Christophe",
+           family = "Regouby",
+           role = c("aut", "cre", "cph"),
+           email = "christophe.regouby@free.fr"
+           )
+    )
+Description: Fourni les fonctions nécéssaire au téléchargement et à la mise en cache de fichiers 
+  du Hub 'Hugging-Face' <https://huggingface.co/models>. La strucure de cache est strictement la même,
+  et peut donc être partagée avec les autres librairies clientes.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: fr
+BugReports: https://github.com/cregouby/hfhub.fr/issues
+Translates: hfhub (== 0.1.1.9000)
+LazyData: true
+imports:
+    rhelpi18n
+Remotes: 
+    eliocamp/rhelpi18n
+RoxygenNote: 7.3.2
