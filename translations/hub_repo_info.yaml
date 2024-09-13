@@ -29,7 +29,7 @@ section{Functions}:
     }
   translation: |
     \itemize{
-    \item \code{hub_dataset_info()}: Demandez les informations à partir d'un Dataset Hub
+    \item \code{hub_dataset_info()}: Consulte les informations à partir d'un Dataset du Hub
 
     }
 untranslatable:

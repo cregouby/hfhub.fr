@@ -26,7 +26,7 @@ arguments:
       filter allowed files to snapshot.
     translation: |-
       Un vecteur de caractères contenant des expressions régulières à utiliser pour
-      les fichiers à inclure dansla collecte.
+      les fichiers à inclure dans la collecte.
   ignore_patterns:
     original: |-
       A character vector contaitning patterns to reject files

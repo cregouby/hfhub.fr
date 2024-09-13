@@ -7,7 +7,8 @@ arguments:
     translation: L'identifiant du dépôt, par exemple \code{"bert-base-uncased"} ou \code{"deepset/sentence_bert"}.
   filename:
     original: Filename to download from the repository. Example \code{"config.json"}.
-    translation: Nom de fichier à télécharger depuis le dépôt. Exemple : \code{"config.json"}.
+    translation: |
+      Nom de fichier à télécharger depuis le dépôt. Exemple : \code{"config.json"}.
   '...':
     original: currenytly unused.
     translation: inutilisé actuellement.
