@@ -17,7 +17,7 @@ arguments:
     translation: Révision (branche, tag ou identifiant de commit) pour télécharger le fichier à partir du dépôt.
   repo_type:
     original: The type of the repository. Currently only \code{"model"} is supported.
-    translation: Type du dépôt. Actuellement, seule \code{"model"} est pris en charge.
+    translation: Type du dépôt. Actuellement, seul \code{"model"} est pris en charge.
   local_files_only:
     original: Only use cached files?
     translation: Doit-on utiliser uniquement les fichiers stockés localement ?
