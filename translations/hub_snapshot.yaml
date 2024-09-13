@@ -1,0 +1,47 @@
+title:
+  original: Snapshot the entire repository
+  translation: Collecte un instantanné de l'ensemble du dépôt.
+arguments:
+  repo_id:
+    original: The repository identifier, eg \code{"bert-base-uncased"} or \code{"deepset/sentence_bert"}.
+    translation: L'identifiant du dépôt, par exemple \code{"bert-base-uncased"} ou \code{"deepset/sentence_bert"}.
+  '...':
+    original: currenytly unused.
+    translation: inutilisé.
+  revision:
+    original: Revision (branch, tag or commitid) to download the file from.
+    translation: Révision (branche, tag ou identifiant de commit) pour télécharger le fichier à partir du dépôt.
+  repo_type:
+    original: The type of the repository. Currently only \code{"model"} is supported.
+    translation: Type du dépôt. Actuellement, seul \code{"model"} est pris en charge.
+  local_files_only:
+    original: Only use cached files?
+    translation: UtiliseDoit-on utiliser uniquement les fichiers stockés localement ?
+  force_download:
+    original: For re-downloading of files that are cached.
+    translation: Pour forcer le re-téléchargement de fichiers qui sont sauvegardés localement.
+  allow_patterns:
+    original: |-
+      A character vector containing patters that are used to
+      filter allowed files to snapshot.
+    translation: |-
+      Un vecteur de caractères contenant des expressions régulières à utiliser pour
+      les fichiers à inclure dansla collecte.
+  ignore_patterns:
+    original: |-
+      A character vector contaitning patterns to reject files
+      from being downloaded.
+    translation: |-
+      Un vecteur de caractères contenant des expressions régulières à utiliser pour
+      les fichiers à exclure de la collecte.
+description:
+  original: |
+    Downloads and stores all files from a Hugging Face Hub repository.
+  translation: |
+    Télécharge et enregistre tous les fichiers d'un dépôt du Hub Hugging Face.
+untranslatable:
+- alias
+- name
+- keyword
+- concept
+- usage

@@ -1,0 +1,36 @@
+title:
+  original: Weight file names in HUB
+  translation: Les noms de fichiers de poids sur HUB
+value:
+  original: |
+    A string with the default file names for indexes in the Hugging Face Hub.
+  translation: Un chaîne avec les noms par défaut des fichiers d'index dans le Hub de Hugging Face.
+description:
+  original: |
+    Weight file names in HUB
+  translation: Les noms de fichiers de poids / paramêtres du modèle sur HUB
+section{Functions}:
+  original: |-
+    \itemize{
+    \item \code{WEIGHTS_NAME()}: Name of weights file
+
+    \item \code{WEIGHTS_INDEX_NAME()}: Name of weights index file
+
+    }
+  translation: |
+    \itemize{
+    \item \code{WEIGHTS_NAME()}: Nom du fichier de poids
+    \item \code{WEIGHTS_INDEX_NAME()}: Nom du fichier d'index des poids
+    }
+
+examples:
+  original: |
+    WEIGHTS_NAME()
+    WEIGHTS_INDEX_NAME()
+  translation: ~
+untranslatable:
+- alias
+- name
+- keyword
+- concept
+- usage

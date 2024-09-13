@@ -1,0 +1,40 @@
+title:
+  original: Queries information about Hub repositories
+  translation: Consulte les informations spécifiques à un dépôt Hub
+arguments:
+  repo_id:
+    original: The repository identifier, eg \code{"bert-base-uncased"} or \code{"deepset/sentence_bert"}.
+    translation: L'identifiant du dépôt, par exemple \code{"bert-base-uncased"} ou \code{"deepset/sentence_bert"}.
+  '...':
+    original: currenytly unused.
+    translation: inutilisé.
+  repo_type:
+    original: The type of the repository. Currently only \code{"model"} is supported.
+    translation: Type du dépôt. Actuellement, seul \code{"model"} est pris en charge.
+  revision:
+    original: Revision (branch, tag or commitid) to download the file from.
+    translation: Révision (branche, tag ou identifiant de commit) pour télécharger le fichier à partir du dépôt.
+  files_metadata:
+    original: Obtain files metadata information when querying repository information.
+    translation: Collecte les métadonnées sur les fichiers lors de la consultation des informations sur les dépôts.
+description:
+  original: |
+    Queries information about Hub repositories
+  translation: Consulte les informations à propos des dépôts Hub
+section{Functions}:
+  original: |-
+    \itemize{
+    \item \code{hub_dataset_info()}: Query information from a Hub Dataset
+
+    }
+  translation: |
+    \itemize{
+    \item \code{hub_dataset_info()}: Demandez les informations à partir d'un Dataset Hub
+
+    }
+untranslatable:
+- alias
+- name
+- keyword
+- concept
+- usage
