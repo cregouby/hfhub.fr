@@ -32,4 +32,4 @@ library(hfhub)
 ?hub_download
 ```
 
-![exemple de page de documentation en français dans l'onglet Help de RStudio](images/clipboard-341480259.png)
+![exemple de page de documentation en français dans l'onglet Help de RStudio](images/clipboard-166414065.png)
